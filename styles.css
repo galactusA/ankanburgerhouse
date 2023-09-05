@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+@font-face {
+    font-family: myFont;
+    src: url("LEMONMILK-Medium.otf");
+}
+.navbar {
+    height: 60px;
+    background-color: #102C57;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+/* Box 1*/
+.logoBox {
+    height: 60px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    background-image: url("cheeseburger.png");
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+/* Box 2*/
+.nameBox {
+    height: 60px;
+    width: 240px;
+    display: flex;
+    align-items: left;
+    align-items: center;
+    font-size: 0.75rem;
+    color: white;
+}
+/* Box 3 */
+.nav-search {
+    height: 30px;
+    width: 600px;
+    color: greenyellow;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-search:hover {
+    border: 10px purple;
+}
+.search-select {
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search-input {
+    width: 100%;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/* Box 4 */
+span {
+    font-size: 0.7rem;
+    color: white;
+}
+.nav-account {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: white;
+}
+/* Box 5 */
+.nav-report {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: white;
+}
+.paper-bag {
+    display: inline-block;
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-order {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: white;
+    
+}
+/*---------------------------------------------------------------*/
+.panel {
+    font-size: 0.75rem;
+    height: 30px;
+    background-color: #DAC0A3;
+    display: flex;
+    align-items: center;
+}
+.custom-icon {
+    width: 13px;
+    height: auto;
+}
+.panel-all {
+    font-weight: 700;
+    width: 70px;
+    margin-right: 10px;
+
+}
+.panel-option p {
+    font-size: 0.75rem;
+    display: inline;
+    margin-left: 15px;
+    font-weight: 600;
+}
+.panel-option {
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-socity {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: right;
+    width: 20%;
+}
+/*----------------------------------------------------------------------------------------*/
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #F8F0E5;
+}
+.image-box {
+    text-align: center;
+}
+.image-box img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+.image-name {
+    font-style: italic;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.image-price {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.button-name {
+    background-color: #102C57;
+    color: white;
+    border-radius: 5px;
+    min-width: fit-content;
+    font-size: 0.7rem;
+    cursor: pointer;
+    
+}
+/* Hero message -------------------------------------------------------------------------------------*/
+.hero-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EADBC8;
+    height: 25px;
+    font-size: 0.85rem;
+}
+/* Checkout section ----------------------------------------------------------------------------------*/
+
+.customize {
+    font-style: italic;
+    text-align: left;
+    width: 100%;
+    background-color: #F8F0E5;
+}
+.heading {
+    margin-left: 5px;
+}
+.cb {
+    margin-left: 5px;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+/*Sign up ----------------------------------------------------------------------------------------------*/
+.sign-up {
+    height: 15px;
+    background-color: #DAC0A3;
+}
+/*Footer -----------------------------------------------------------------------------------------------*/
+footer {
+    background-color: #EADBC8;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    width: 100%;
+    position: absolute;
+    color: #f3f3f3;
+    padding: 100px 0px 30px;
+}
+.logo2 {
+    width: 30px;
+    height: auto;
+    margin-bottom: 30px;
+}
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.coloumn {
+    flex-basis: 25%;
+    padding: 10px;
+}
+.coloumn:nth-child(2), .coloumn:nth-child(3){
+    flex-basis: 15%;
+}
+.coloumn h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id {
+    width: fit-content;
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+}
+
+form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
+    border-bottom: 1px solid #f3f3f3;
+    margin-bottom: 50px;
+}
+form .fa-solid {
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input {
+    color: white;
+    width: 100%;
+    background: transparent;
+}
+form button {
+    background: transparent;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+}
+form button .fa-solid {
+    font-size: 16px;
+    color: #ccc;
+}
+.social-icons .fa-brands {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    background: white;
+    color: #000;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.copyright {
+    text-align: center;
+    font-size: .7rem;
+}
+.underline {
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+.underline span {
+    width: 15px;
+    height: 100%;
+    background: white;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 1.5s linear infinite;
+}
+@keyframes moving {
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100px;
+    }
+}
